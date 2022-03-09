@@ -57,7 +57,7 @@ class Main(Tk):
         self.frm = Frame(self).grid()
         self['bg']="#202060"
         
-        self.img = PhotoImage(file='mill.png')
+        self.img = PhotoImage(file='/img/mill.png')
         self.img = self.img.subsample(2,2)
         self.lbl = Label(self.frm,image = self.img,bg="#202060")
         self.lbl.place(anchor="c", relx=.5, rely=.25)
