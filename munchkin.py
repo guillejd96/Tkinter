@@ -21,7 +21,7 @@ class Juego(Tk):
         self.frm_sup = Frame(self)
         self.frm_sup.grid(column=0,row=0)
         
-        self.img = PhotoImage(file='m.png')
+        self.img = PhotoImage(file='/img/m.png')
         self.img = self.img.subsample(2,2)
         
         self.image = Label(self.frm_sup,image=self.img)
