@@ -15,4 +15,6 @@ Personal Tkinter projects
 ### Translator application using googletrans python library.
 ## 5 - Ants generator
 ### Ants simulator. You can generate ants and watch them move and find food. When they eat they become faster.
+## 6 - Simple Weather App
+### Simple Weather application to check the weather given a place (city, state or even country). Info shown is: city and country, temperature (min and max), humidity and wind speed. Can't show weather icon.
 
